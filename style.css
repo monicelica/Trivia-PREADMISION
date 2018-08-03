@@ -1,0 +1,66 @@
+header{
+	border-bottom: solid #d26a6a 4px;
+    width: 95%;
+    display: block;
+    margin: 4% 2% 2%;
+}
+h1 {
+	color: #f96d15;
+    font-family: Helvetica Neue;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+h2{
+	color: #f96d15;
+    font-family: Lucida Grande;
+    font-weight: 400;
+    text-align: center;
+}
+.ingreso{
+	font-family: helvetica;
+    font-size: 2em;
+    display: inline;
+    float: right;
+    margin-right: 6%;
+    margin-top: -18px;
+    color: #d26a6a;
+}
+#usuario{
+	border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+a{
+	font-family: Lucida Grande;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px;
+    color:black;
+}
+nav{
+	text-align: left;
+	display: inline;
+
+}
+.menu{
+	border-bottom: solid #d26a6a 2px;
+	padding-bottom: 15px;
+}
+#wrong,#show,#puntuaje{
+	font-family: Lucida Grande;
+	font-size: 18px;
+	text-align: center;
+    margin: 4%;
+}
+
+#wrong{
+    text-align: center;
+    margin: 4%;
+    font-size: 28px;
+
+
+}
+
+
+

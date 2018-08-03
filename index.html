@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Tú ciudad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header>
+		<h1>Trivias de tú Ciudad</h1>
+		<h2>BIENVENIDO</h2>
+		
+		<!--<a id="usuario" href="">USUARIO</a>-->	
+	</header>
+	<div class="menu">
+		<nav>
+		  <a  style="cursor: pointer;" onclick="transport()">Museos</a> 
+		  <a  style="cursor: pointer;" onclick="transport()">Restaurantes</a>
+		  <a  style="cursor: pointer;" onclick="transport()">Medios de Transporte</a>
+		  <a  style="cursor: pointer;" onclick="transport()">Cultura</a>
+		</nav>
+		<div class="ingreso">  
+				<i class="fas fa-user-astronaut"></i><button id="usuario" onclick="starall()">USUARIO</button>
+		</div>
+	</div>
+<!--id para mostrar respuestas -->
+	<div id="show"></div>
+<!--id para mostrar score -->
+	<div id="puntuaje"></div>
+<!--id para false del juego -->
+	<div id="wrong"></div>
+<!--script-->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
+
+
